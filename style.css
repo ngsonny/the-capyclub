@@ -1,0 +1,122 @@
+header {
+    color:#AF8260;
+    font-size: larger;
+    background-color: #31363F;
+    padding: 50px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+body {
+    background-image: url(capybara.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+.button {
+    background-color: #AF8260;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #31363F;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    width: 100px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 50px;
+    margin-left: 300px;
+    opacity: 0.9;
+}
+.button:hover,
+.button:focus {
+  background-color: #f1ba8f;
+}
+
+.button1 {
+    background-color: #AF8260;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #31363F;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    width: 120px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 50px;
+    margin-left: 300px;
+    opacity: 0.9;
+}
+
+.button1:hover,
+.button1:focus {
+  background-color: #f1ba8f;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 840px) {
+    .button {
+        margin-left: 300px;
+    }
+
+    .button1 {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 640px) {
+    .button {
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 490px) {
+    .button {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 390px) {
+    .button {
+        margin-left: 20px;
+    }
+}
